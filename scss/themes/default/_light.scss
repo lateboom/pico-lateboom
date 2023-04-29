@@ -3,8 +3,9 @@
 // Default: Light theme
 [data-theme="light"],
 :root:not([data-theme="dark"]) {
+  --logo: url('jtrip-black.svg')
   --background-color: #{$white};
-
+  
   // Texts colors
   --color: #{$grey-700};
   --h1-color: #{$grey-900};

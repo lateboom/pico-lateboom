@@ -2,8 +2,9 @@
 
 // Default: Dark theme
 @mixin dark {
+  --logo: url('jtrip-white.svg');
   --background-color: #{mix($black, $grey-900, 37.5%)};
-
+  
   // Texts colors
   --color: #{$grey-200};
   --h1-color: #{$grey-50};
